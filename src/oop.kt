@@ -29,3 +29,16 @@ class Student(
     println("Phone: $phone")
 }
 }
+
+
+class Newcar {
+    var name: String=""
+    var model: String = ""
+    var price: Int = 0
+
+    constructor(name: String,model: String,price: Int){
+        this.name = name
+        this.model = model
+        this.price =price
+    }
+}
