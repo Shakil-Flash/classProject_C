@@ -1,3 +1,4 @@
+/*
 fun main() {
     var start = true
 
@@ -41,4 +42,27 @@ class Newcar {
         this.model = model
         this.price =price
     }
+}*/
+
+
+open class Dipti(){
+    fun kotlin(){
+        println("Kotlin have 24 developer(upcoming)")
+    }
+    fun sir() {
+        println("Sir have 24 Student")
+    }
+}
+
+class Market(): Dipti() {
+    fun bazar(){
+        println("bazar have 10 post for job")
+    }
+}
+
+fun main() {
+    val market = Market()
+    market.sir()
+    market.kotlin()
+    market.bazar()
 }
